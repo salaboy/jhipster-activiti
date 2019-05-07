@@ -1,0 +1,19 @@
+{
+  "generator-jhipster": {
+    "appsFolders": [
+      "gateway",
+      "invoice",
+      "review"
+    ],
+    "directoryPath": "../",
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "ZDYwOTQ0ODk0ZDY0ZjlmNzhiYzY5OTBmNjViNzdhOWRiMDBhMTBjM2FlMmQ4NDc2NTkwNDhhYjU3ZTMxODFkNGY0NDMxMmI5MDU1OTg4YjcwZDQyZmE2MDhlYzgzNzc5MjE5Mw==",
+    "dockerRepositoryName": "salaboy",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "jhipster",
+    "kubernetesServiceType": "LoadBalancer",
+    "monitoring": "no",
+    "istio": "no",
+    "istioRoute": false
+  }
+}
